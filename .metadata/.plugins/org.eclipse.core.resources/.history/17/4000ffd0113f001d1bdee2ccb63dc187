@@ -1,0 +1,19 @@
+package switchexample;
+
+import java.util.Scanner;
+
+public class SwitchExample2 {
+
+	public static void main(String[] args) {
+		String basicColor="red";
+		//Scanner scn=new Scanner(System.in);
+		//String basicColor=scn.next();
+		switch(basicColor) {
+		case "blue": System.out.println("You got blue");
+		case "red": System.out.println("You got red");
+		case "green": System.out.println("You got green");
+		}
+
+	}
+
+}

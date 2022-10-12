@@ -1,0 +1,8 @@
+package ListOfObjects;
+
+public class Test {
+	public static void main(String[] args) {
+		Product prod=new Product("Bluetooth",50,10,"Boat");
+		System.out.println(prod.toString());
+	}
+}

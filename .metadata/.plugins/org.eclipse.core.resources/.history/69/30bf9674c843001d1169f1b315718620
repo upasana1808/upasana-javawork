@@ -1,0 +1,6 @@
+package interfacepack;
+
+public interface Artist {
+	public void doArt();//no body
+
+}

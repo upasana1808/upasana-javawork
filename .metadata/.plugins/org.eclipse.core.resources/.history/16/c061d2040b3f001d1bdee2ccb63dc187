@@ -1,0 +1,9 @@
+package product;
+
+public class Product {
+	public void method()
+	{
+		System.out.println("Hello from product");
+	}
+	
+}

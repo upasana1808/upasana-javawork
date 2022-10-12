@@ -1,0 +1,12 @@
+package inheritance;
+
+public class Person {
+	public Person()
+	{
+		System.out.println("Person contructor");
+	}
+	String name;
+	int age;	
+	
+
+}

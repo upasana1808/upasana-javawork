@@ -1,0 +1,11 @@
+package encapsulation;
+
+public class TestMobile {
+
+	public static void main(String[] args) {
+		Mobile x= new Mobile();
+		x.setBrand("Upasana");
+		System.out.println(x.getBrand());
+	}
+
+}

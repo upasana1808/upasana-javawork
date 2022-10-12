@@ -1,0 +1,60 @@
+package test;
+
+import static org.junit.Assert.assertEquals;
+
+import org.junit.After;
+import org.junit.AfterClass;
+import org.junit.Before;
+import org.junit.BeforeClass;
+import org.junit.Ignore;
+import org.junit.Test;
+
+import unit.Calculator;
+
+public class TestAnnotation {
+	
+	@BeforeClass
+	public static void m1()
+	{
+		System.out.println("@BeforeClass Executes before all the classes");
+	}
+	
+	@Before
+	public void m2()
+	{
+		System.out.println("Test class will execute next");
+	}
+	@After
+	public void m3()
+	{
+		System.out.println("Test class executed successfully");
+	}
+	@AfterClass
+	public static void m4()
+	{
+		System.out.println("@AfterClass Executes after  all the classes");
+	}
+	@Ignore
+	public void m5()
+	{
+		System.out.println("I am ignored in this app");
+	}
+	
+	@Test  
+	public void runFindBig() {		
+		assertEquals(500,Calculator.findBig(500, 200));
+	}
+	@Test  
+	public void runFindSmall() {		
+		assertEquals(200,Calculator.findBig(500, 200));
+	}
+	@Test  
+	public void runFindBig1() {		
+		assertEquals(500,Calculator.findBiggest(500, 200,300));
+	}
+	@Test  
+	public void runFindSmall1() {		
+		assertEquals(200,Calculator.findBig(500, 200));
+	}
+
+}

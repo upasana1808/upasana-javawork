@@ -1,0 +1,15 @@
+package tempAccessModi;
+
+import accessModi.Sample;
+
+public class Test {
+
+	public static void main(String[] args) {
+		Sample obj=new Sample();
+		obj.iAmPublic="wertyui";
+		Sample obj2=new Sample("@@","QA","Java");
+		
+
+	}
+
+}

@@ -1,0 +1,17 @@
+package ArrayListPack;
+
+import java.util.ArrayList;
+
+public class AraryListExample {
+	public static void main(String[] args) {
+		int[] x=new int[5];
+		ArrayList list=new ArrayList();
+		list.add("Upasana");
+		list.add(12.55);
+		list.add(1234);
+		list.add(true);
+		list.add('Y');
+		System.out.println(list);
+	}
+
+}

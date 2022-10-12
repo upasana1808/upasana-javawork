@@ -1,0 +1,13 @@
+package methods;
+
+public class TestTV {
+
+	public static void main(String[] args) {
+		Television tele=new Television();
+		tele.turnOn();
+		int x=tele.switchToAChannel();
+		System.out.println(tele.switchToAChannel());
+
+	}
+
+}

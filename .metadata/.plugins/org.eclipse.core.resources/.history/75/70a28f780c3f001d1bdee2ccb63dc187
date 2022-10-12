@@ -1,0 +1,21 @@
+package test;
+
+import customer.Customer;
+import payment.Payment;
+import product.Product;
+
+public class Test {
+
+	public static void main(String[] args) {
+		Customer cust1=new Customer();
+		cust1.u
+		Customer cust2=new Customer();
+		Customer cust3=new Customer();
+		Customer cust4=new Customer();
+		
+		
+		
+
+	}
+
+}

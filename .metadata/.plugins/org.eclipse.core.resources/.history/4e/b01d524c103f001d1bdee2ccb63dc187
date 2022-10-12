@@ -1,0 +1,47 @@
+package test;
+
+import java.util.Scanner;
+
+import customer.Customer;
+import payment.Payment;
+import product.Product;
+
+public class Test {
+
+	public static void main(String[] args) {
+		Customer cust1=new Customer();
+		cust1.userName="jigishkumar";
+		cust1.password="1234jigi";
+		cust1.email="jigi@gmail.com";
+		cust1.phone=345678;
+		cust1.address="London";
+		
+		Customer cust2=new Customer();
+		cust2.userName="hilda";
+		cust2.password="1234hilda";
+		cust2.email="hilda@gmail.com";
+		cust2.phone=34567866;
+		cust2.address="New York";
+		
+		Customer cust3=new Customer();
+		Scanner scn=new Scanner(System.in);
+		System.out.println("Enter username");
+		cust3.userName=scn.nextLine();
+		System.out.println("Enter password");
+		cust3.password=scn.nextLine();
+		System.out.println("Enter email");
+		cust3.email=scn.nextLine();;
+		System.out.println("Enter phone");
+		cust3.phone=scn.nextLong();
+		System.out.println("Enter address");
+		cust3.address=scn.nextLine();
+		
+		
+		Customer cust4=new Customer();
+		
+		
+		
+
+	}
+
+}

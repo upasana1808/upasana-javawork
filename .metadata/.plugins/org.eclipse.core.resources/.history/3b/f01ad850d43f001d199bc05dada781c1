@@ -1,0 +1,19 @@
+package methods;
+
+public class Television {
+	String brand;
+	int price;
+	String screenSize;
+	
+	public void turnOn()
+	{
+		System.out.println("shows display");
+	}
+	
+	public int switchToAChannel()
+	{
+		return 1;
+	}
+	
+
+}

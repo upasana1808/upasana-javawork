@@ -1,0 +1,14 @@
+package methodref;
+
+public class School {
+	public void noteSomething(String x)
+	{
+		System.out.println("Make a note of "+x);
+	}
+	
+	public void writeSomething(String x)
+	{
+		System.out.println("wtite "+x+" in your notebook ");
+	}
+
+}

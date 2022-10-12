@@ -1,0 +1,9 @@
+package userdefinedExp;
+
+public class CreditCardExpception {
+	public CreditCardExpception(String msg)
+	{
+		super(msg);
+	}
+
+}

@@ -1,0 +1,10 @@
+package singleton;
+
+public class Sample {
+	private static Sample obj;
+	
+	private  Sample() {
+		
+	}
+
+}

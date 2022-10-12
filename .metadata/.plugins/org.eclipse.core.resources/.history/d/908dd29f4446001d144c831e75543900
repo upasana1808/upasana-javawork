@@ -1,0 +1,12 @@
+package com;
+
+public class Sample {
+	
+	public Sample getOne() { return this;}
+	public Sample getTwo() { return this;}
+	public void getFinal() {
+		System.out.println("Final execution");
+	}
+	
+
+}

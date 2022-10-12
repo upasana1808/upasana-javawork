@@ -1,0 +1,30 @@
+package encapsulation;
+
+public class Mobile {
+	private String brand;
+	private int RAM;
+	private String color;
+
+	// setting up the value for brand attribute
+	public void setBrand(String brand) {
+		switch (brand) {
+		case "Samsung":
+			this.brand = brand;
+			break;
+		case "Apple":
+			this.brand = brand;
+			break;
+		case "Sony":
+			this.brand = brand;
+			break;
+		default:
+			System.out.println("Not a valid brand");
+		}
+		this.brand = brand;
+	}
+
+	public String getBrand() {
+		return brand;
+	}
+
+}

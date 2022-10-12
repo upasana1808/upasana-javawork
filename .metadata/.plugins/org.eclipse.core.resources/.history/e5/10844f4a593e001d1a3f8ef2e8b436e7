@@ -1,0 +1,19 @@
+package loops;
+
+public class TestFor {
+
+	public static void main(String[] args) {
+		//for(initial value, terminal value, increment
+		for(int i=1;i<=20;i++)
+		{
+			System.out.println("List of even numbers");
+			if(i%2==0)
+			{
+					
+				System.out.println(i);
+			}
+		}
+
+	}
+
+}

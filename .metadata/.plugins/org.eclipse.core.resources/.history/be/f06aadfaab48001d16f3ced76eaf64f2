@@ -1,0 +1,14 @@
+package apachelogger;
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.core.Logger;
+
+public class Test {
+
+	public static void main(String[] args) {
+		Logger LOGGER=LogManager.getLogger();
+		
+
+	}
+
+}

@@ -1,0 +1,14 @@
+package poly_assignment;
+
+public class Shape {
+	String color;
+
+	public Shape(String color) {
+		super();
+		this.color = color;
+	}
+
+	
+	
+
+}

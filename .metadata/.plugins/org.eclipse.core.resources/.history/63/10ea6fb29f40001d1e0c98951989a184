@@ -1,0 +1,9 @@
+package inheritance;
+
+public class Manager extends Employee{
+	String dept;	
+	public Manager()
+	{
+		System.out.println("Manager contructor");
+	}
+}

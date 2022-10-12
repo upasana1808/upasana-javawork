@@ -1,0 +1,18 @@
+package encapsulation;
+
+public class Mobile {
+	private String brand;
+	private int RAM;
+	private String color;
+	
+	//setting up the value for brand attribute
+	public void setBrand(String brand)
+	{
+		this.brand=brand;
+	}
+	public String getBrand()
+	{
+		return brand;
+	}
+
+}

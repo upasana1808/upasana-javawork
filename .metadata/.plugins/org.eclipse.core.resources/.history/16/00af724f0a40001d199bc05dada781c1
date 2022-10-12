@@ -1,0 +1,20 @@
+package accessModi;
+
+public class Sample {
+	private String iAmPrivate;
+	public String iAmPublic;
+	String iAmDefault;
+	
+	public Sample() {}
+	public Sample(String x, String y, String z)
+	{
+		if(x=="@@") {
+			System.out.println("Spaces/@@ are not allowed");
+		}
+		else {
+		iAmPrivate=x;}
+		iAmPublic=y;
+		iAmDefault=z;
+	}
+
+}

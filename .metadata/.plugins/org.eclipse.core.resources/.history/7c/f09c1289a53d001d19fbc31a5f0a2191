@@ -1,0 +1,16 @@
+package temp;
+
+import java.util.Scanner;
+
+//import java.lang.*;
+
+public class Test {
+	public static void main(String[] args) {
+		Scanner scn=new Scanner(System.in);//accept the input
+		System.out.println("Please enter your name");
+		String name=scn.next();
+		System.out.println("hello "+name+"!! welcome to the world of java");
+		
+	}
+
+}

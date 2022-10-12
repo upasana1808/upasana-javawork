@@ -1,0 +1,18 @@
+package staticexample;
+
+public class Test {
+	public static void main(String[] args) {
+		Sample obj1=new Sample();//--->  xx01
+		obj1.name="Angel";
+		obj1.SSN=2034567;
+		
+		Sample obj2=new Sample();//--->  xx02
+		obj1.name="Demon";
+		obj1.SSN=4568909;
+		
+		System.out.println(Sample.nameOfOrg);
+		Sample.nameOfOrg="Oracle";
+		//xxxdd="Oracle"
+		System.out.println(Sample.nameOfOrg);
+	}
+}

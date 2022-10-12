@@ -1,0 +1,9 @@
+package methodref;
+
+public class School {
+	public void noteSomething(String x)
+	{
+		System.out.println("Make a note of "+x);
+	}
+
+}

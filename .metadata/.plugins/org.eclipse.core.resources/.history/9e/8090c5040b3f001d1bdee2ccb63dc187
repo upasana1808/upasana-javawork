@@ -1,0 +1,10 @@
+package customer;
+
+public class Customer {
+	public void method()
+	{
+		System.out.println("Hello from customer");
+	}
+	
+
+}
